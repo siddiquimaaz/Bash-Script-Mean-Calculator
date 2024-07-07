@@ -19,10 +19,35 @@ To use the script, simply run it with the desired options and provide the filena
 ### Basic Usage
 
 ```sh
-./mean_calculator.sh <filename>
+./mean_calculator.sh <filename>`
 
 # Options
 -m: Calculate the mean of numbers in the file (default if no flag is specified).
 -h: Display the help message.
+```
+# Examples
+- Calculate the mean of numbers in numbers.txt:
+```sh
+./mean_calculator.sh -m numbers.txt
+```
 
+- Display the help message:
+  ```sh
+  ./mean_calculator.sh -h
 
+## Installation
+- Download the script to your local machine.
+- Make the script executable:
+
+```sh
+chmod +x mean_calculator.sh
+```
+- Run the script with the appropriate options and filename.
+
+# License
+- None.
+
+# Contact
+For any questions or suggestions, please contact siddiquimaaz88@gmail.com.
+
+***Thank you for using the Bash Mean Calculator!***
